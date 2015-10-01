@@ -5,10 +5,13 @@ body {
 	border-bottom: 5px solid #222222;
 	padding: 50px;
 	margin: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 a {
 	font-weight: bold;
+	color: black;
 }
 
 nav {	
@@ -21,6 +24,45 @@ h1 {
 	font-family: arial;
 }
 
+h2 {
+	letter-spacing: 2px;
+	font-family: arial;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+h3 {
+	font-family: arial;
+	font-size: 24px;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p {
+	font-family: georgia;
+	line-height: 25px;
+	font-size: 18px;
+	text-align: left;
+}
+
 img {
+	border: solid 1px;
+	padding: 3px;
+	margin: 20px;
+}
+
+.image {
 	float: right;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+
+ul {
+	font-family: georgia;
 }
